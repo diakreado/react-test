@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import '../App.css';
+import './footer.css';
+
 
 class Footer extends Component {
   render() {
     return (
         <footer className="App-footer">
-            <p>foter test</p>
+            <p>Nicshe bul nigilistom</p>
         </footer>
     )
   }

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import '../App.css';
+import '../../App.css';
+import './main-content.css';
+import TaskList from './task-list';
 
 class MainContent extends Component {
   render() {
@@ -7,7 +9,6 @@ class MainContent extends Component {
         <main className="App-main">
           <h1>Hello a third time!</h1>
           <p>This is where most of my content will go...</p>
-          <br/>
           <a
             className="App-link"
             href="https://reactjs.org"
@@ -16,6 +17,7 @@ class MainContent extends Component {
           >
             Learn React
           </a>
+          <TaskList />
         </main>
     )
   }
