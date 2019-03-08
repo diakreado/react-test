@@ -14,7 +14,7 @@ const data = [
     },
     {
         id: 2,
-        imgUrl: "http://placekitten.com/400/300",
+        imgUrl: "https://www.fillmurray.com/200/200",
         text: nameList[2]
     }
 ];
