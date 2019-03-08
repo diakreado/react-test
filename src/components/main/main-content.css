@@ -18,15 +18,15 @@
 
 .task-list {
   display: flex;
-  flex-direction: column;
+  flex-direction: inline;
   align-items: left;
   justify-content: start;
   margin: 25px;
 }
   
 .task-list .task {
-  display: inline-flex;
-  margin: 3px;
+  /* display: inline-flex; */
+  margin: 15px;
 }
   
 .task-list .task input {
