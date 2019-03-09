@@ -19,6 +19,7 @@
 .task-list {
   display: flex;
   flex-direction: inline;
+  flex-wrap: wrap;
   align-items: left;
   justify-content: start;
   margin: 25px;
@@ -32,3 +33,14 @@
 .task-list .task input {
   margin: 3px;
 }
+
+/* button {
+  border: 1px solid lightgray;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 4px;   
+}
+
+button:hover {
+  cursor: pointer;
+} */

@@ -13,6 +13,16 @@ const data = [
         text: nameList[1]
     },
     {
+        id: 3,
+        imgUrl: "http://placekitten.com/400/200",
+        text: nameList[1]
+    },
+    {
+        id: 3,
+        imgUrl: "http://placekitten.com/400/200",
+        text: nameList[1]
+    },
+    {
         id: 2,
         imgUrl: "https://www.fillmurray.com/200/200",
         text: nameList[2]

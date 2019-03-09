@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../logo.svg';
+import logo from '../logo.png';
 import '../App.css';
 import './header.css';
 
@@ -7,13 +7,18 @@ class Header extends Component {
   render() {
     return (
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <ul className="nav">
-            <li>Thing 1</li>
-            <li>Thing 2</li>
-            <li>Thing 3</li>
-            <li>Thing 4</li>
-          </ul>
+          <div className="App-logo">
+            <img src={logo} className="logo-img" alt="logo" />
+            <p>Course Editor</p>
+          </div>
+          {/* <ul className="nav">
+            <li>All projects</li>
+            <li>About</li>
+          </ul> */}
+          <div className="user">
+            <img src="http://bilim-all.kz/uploads/images/2016/10/28/original/854b15606983a6aacf484aa080b0ba03.png" className="user-avatar" alt="logo" />
+            <p>Jhon Doe</p>
+          </div>
         </header>
     )
   }
